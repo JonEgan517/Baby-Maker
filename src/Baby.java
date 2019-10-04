@@ -5,7 +5,7 @@ public class Baby
 	private String name;
 	private String school;
 	private String sport;
-	private String animals;
+	private String animal;
 	private int number;
 	private String classmate;
 	private String music;
@@ -19,7 +19,7 @@ public class Baby
 		setName(n);
 		setSchool(s);
 		setSport(sp);
-		setAnimals(a);
+		setAnimal(a);
 		setNumber(num);
 		setClassmate(c);
 		setMusic(m);
@@ -66,12 +66,12 @@ public class Baby
 		this.sport = sport;
 	}
 
-	public String getAnimals() {
-		return animals;
+	public String getAnimal() {
+		return animal;
 	}
 
-	public void setAnimals(String animals) {
-		this.animals = animals;
+	public void setAnimal(String animal) {
+		this.animal = animal;
 	}
 
 	public int getNumber() {
