@@ -9,7 +9,8 @@ public class BabyMaker
 		nursery.add(new Baby("female", 5.1, "Emma", "Regis", "basketball", "cat", 26, "Jon", "rock", "hot dog"));
 		nursery.add(new Baby("male", 7.3, "Bob", "Lakewood", "baseball", "bird", 7, "Fred", "country", "hamburger"));
 		
-		PrintNursery.printNursery(nursery);
-		Alphabetize.alphabetically(nursery);
+		//PrintNursery.printNursery(nursery);
+		//Alphabetize.alphabetically(nursery);
+		FirstAndLast.firstAndLast(nursery);
 	}
 }

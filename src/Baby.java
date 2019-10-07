@@ -26,83 +26,103 @@ public class Baby
 		setFood(f);
 	}
 
-	public String getGender() {
+	public String getGender() 
+	{
 		return gender;
 	}
 
-	public void setGender(String gender) {
+	public void setGender(String gender) 
+	{
 		this.gender = gender;
 	}
 
-	public double getWeight() {
+	public double getWeight() 
+	{
 		return weight;
 	}
 
-	public void setWeight(double weight) {
+	public void setWeight(double weight) 
+	{
 		this.weight = weight;
 	}
 
-	public String getName() {
+	public String getName() 
+	{
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String name) 
+	{
 		this.name = name;
 	}
 
-	public String getSchool() {
+	public String getSchool() 
+	{
 		return school;
 	}
 
-	public void setSchool(String school) {
+	public void setSchool(String school) 
+	{
 		this.school = school;
 	}
 
-	public String getSport() {
+	public String getSport() 
+	{
 		return sport;
 	}
 
-	public void setSport(String sport) {
+	public void setSport(String sport) 
+	{
 		this.sport = sport;
 	}
 
-	public String getAnimal() {
+	public String getAnimal() 
+	{
 		return animal;
 	}
 
-	public void setAnimal(String animal) {
+	public void setAnimal(String animal) 
+	{
 		this.animal = animal;
 	}
 
-	public int getNumber() {
+	public int getNumber() 
+	{
 		return number;
 	}
 
-	public void setNumber(int number) {
+	public void setNumber(int number) 
+	{
 		this.number = number;
 	}
 
-	public String getClassmate() {
+	public String getClassmate() 
+	{
 		return classmate;
 	}
 
-	public void setClassmate(String classmate) {
+	public void setClassmate(String classmate) 
+	{
 		this.classmate = classmate;
 	}
 
-	public String getMusic() {
+	public String getMusic() 
+	{
 		return music;
 	}
 
-	public void setMusic(String music) {
+	public void setMusic(String music) 
+	{
 		this.music = music;
 	}
 
-	public String getFood() {
+	public String getFood() 
+	{
 		return food;
 	}
 
-	public void setFood(String food) {
+	public void setFood(String food) 
+	{
 		this.food = food;
 	}	
 }
