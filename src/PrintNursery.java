@@ -2,10 +2,11 @@ import java.util.ArrayList;
 
 public class PrintNursery 
 {
-	public static void printNursery(ArrayList<Baby> nursery)
+	public static void printNursery()
 	{
 		System.out.println("Printing out the Nursery:");
-		for (Baby baby: nursery) 
+		
+		for (Baby baby: BabyMaker.nursery) 
 		{
 		    System.out.println("\nBaby's Gender: "+ baby.getGender()
 		    +"\nWeight: "+baby.getWeight()+"\nName: "+baby.getName()+"\nSchool: "+baby.getSchool()
