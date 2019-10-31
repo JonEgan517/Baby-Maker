@@ -8,7 +8,7 @@ public class BabyMaker
 	{
 		NurseryData.nurseryData();
 		//PrintNursery.printNursery();
-		//Alphabetize.alphabetically();
-		//FirstAndLast.firstAndLast(nursery);
+		Alphabetize.alphabetically();
+		//FirstAndLast.firstAndLast();
 	}
 }
